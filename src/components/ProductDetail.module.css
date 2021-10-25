@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.main {
+  background-color: #eee;
+  /* background-image: linear-gradient(
+    #3c0a76,
+    #1f219a,
+    #2a019e,
+    black,
+    #8b00a8,
+    #9400ae,
+    #a7009c,
+    #680056
+  ); */
+  display: flex;
+  align-items: stretch;
+  min-height: calc(100vh - 67.6px);
+}
+.container {
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 4rem;
+  /* background-image: linear-gradient(
+    black,
+    black,
+    #3c0a76,
+    #1f219a,
+    #2a019e,
+    black,
+    #8b00a8,
+    #9400ae,
+    #a7009c,
+    #680056
+  ); */
+}
+.detail {
+  padding: 3rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 70%;
+}
+.image {
+  display: flex;
+  align-items: stretch;
+  flex-basis: 30%;
+}
+.image > img {
+  width: 100%;
+
+  aspect-ratio: 1;
+}
+.description {
+  font-size: 1.4rem;
+}
+.detail > h1 {
+  font-size: 3rem;
+  font-family: "Sanchez", sans-serif;
+}
+p {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #3c0a76;
+  font-family: "Roboto", sans-serif;
+}
+.buynow {
+  margin-top: 1rem;
+
+  margin-bottom: 1rem;
+  border-radius: 5rem;
+  padding: 0.6rem 3rem;
+  color: black;
+  display: flex;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.buynow:hover {
+  transform: translateY(-0.3rem);
+  background-image: linear-gradient(
+    to right,
+    #3c0a76,
+    #1f219a,
+    #2a019e,
+    #8b00a8,
+    #9400ae,
+    #a7009c,
+    #680056
+  );
+  color: aliceblue;
+}
+.buynow:active {
+  transform: translateY(-0.1rem);
+}
+.buynow > span:not(:last-child) {
+  margin-right: 0.5rem;
+}
+.mrp {
+  color: #a70061;
+}

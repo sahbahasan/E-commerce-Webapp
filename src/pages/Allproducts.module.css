@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+.parent {
+  display: flex;
+  min-height: calc(100vh - 67.6px);
+}
+.sidebar {
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    black,
+    #3c0a76,
+    #1f219a,
+    #2a019e,
+    #8b00a8,
+    #9400ae,
+    #a7009c,
+    #680056,
+    black,
+    black
+  );
+  width: 15%;
+}
+.main_content {
+  width: 100%;
+  background-color: #eee;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #eee;
+}
+.heading h1 {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    #3c0a76,
+    #1f219a,
+    #2a019e,
+    #8b00a8,
+    #9400ae,
+    #a7009c,
+    #680056
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.product__wrapper {
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(40.5rem, 1fr);
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+.container {
+  display: flex;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.158);
+  align-items: center;
+  color: black;
+
+  padding: 4rem;
+  /* background-image: linear-gradient(
+      black,
+      black,
+      #3c0a76,
+      #1f219a,
+      #2a019e,
+      black,
+      #8b00a8,
+      #9400ae,
+      #a7009c,
+      #680056
+    ); */
+}
+.detail {
+  padding: 3rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 55%;
+}
+.image {
+  display: flex;
+
+  align-items: stretch;
+  flex-basis: 15%;
+}
+.image > img {
+  width: 100%;
+
+  aspect-ratio: 1;
+}
+
+.detail > h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+
+.mrp {
+  font-family: "Sanchez", sans-serif;
+  font-weight: 900;
+  color: rgb(90, 89, 89);
+}
+.item_details {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  flex-basis: 30%;
+  align-items: center;
+  flex-direction: column;
+}
+.item_details > p {
+  font-family: "Urbanist", sans-serif;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+}
+.quantity > p {
+  font-family: "Urbanist", sans-serif;
+}
+.quantity__value {
+  margin-left: 1rem;
+}
+.quantity button {
+  margin-left: 1rem;
+  border: none;
+  background-color: aliceblue;
+  padding: 0.1rem 0.6rem;
+  transition: all 0.2s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.quantity button :hover {
+}
